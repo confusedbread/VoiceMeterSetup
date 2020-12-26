@@ -1,7 +1,8 @@
 # My Voicemeter Setup :( 
 This is my voicemeter that I am using. VoiceMeter Banana. Looks like this.
 
-Voicemeter Banana Picture
+![alt text](https://github.com/confusedbread/VoiceMeterSetup/blob/master/VoiceBanana.PNG "Logo Title Text 1")
+
 
 I use **VoiceMeterBanana** with **one virtual cable** to route **discord** through a separate channel so I can balance it separately/exclude it from **OBS**. It also allows me to split audio between my **headphones** and **speakers**/**monitors**.
 
@@ -18,6 +19,8 @@ Now you have VMB and one Virtual Cable.
 
 ## Setup VMB
 Open VMB and familiar yourself with the important settings. The important settings you need to get right are the **hardware inputs**, **virtual inputs**, and **hardware output**. Here's a picture if you get confused. 
+
+![alt text](https://github.com/confusedbread/VoiceMeterSetup/blob/master/VoicemeeterBananaMixerSettings.jpg "Logo Title Text 4")
 
 This is setup we are going for here. To explain a little bit VMB uses 5 channels A1 A2 A3 B1 B2. For channels A1, A2, and A3 these are physical outputs thus, **hardward output**, like your headphones or speakers. Channels B1 and B2 are your post balanced/mixed output. B1 is the channel we want for our **OBS desktop volume**. B2 will be our isolated designated **microphone** channel. 
 
@@ -37,7 +40,7 @@ aux (discord)------>| (input AUX)					|
 ##### Setup Desktop Audio Input
 Let's first reroute you system audio to VMB. Go to windows, look up **Sound Settings**, and open it. Now under Output make sure to select **VoiceMeter input (VB-AduioMeeter VAIO)** make sure it is not **AUX VAIO**. (I know these can be swapped. It's just for my setup main input is Desktop Audio and AUX will be discord). Here's a picture so you don't get lost.
 
-windows sound settings
+![alt text](https://github.com/confusedbread/VoiceMeterSetup/blob/master/seleting%20audio%20windows.PNG "Logo Title Text 2")
 
 Now in VMB in the virtual input section you should see a Voicemeeter VAIO channel/column. This is the channel that your audio is being routed to. Lets select where the audio should go. Lets select **A1** to send audio to your physical device and select **B1** to route to OBS desktop in the future. If it's a fresh install it should have A1 and B1 selected for you already. 
 
@@ -51,7 +54,7 @@ Whao! You should be able to hear yourself! and your desktop audio! You should al
 
 If not, lets check if we have things correct since I'm bad at writing guides. Here's a picture of what VMB should look like. 
 
-SETTINGS PICTURE
+![alt text](https://github.com/confusedbread/VoiceMeterSetup/blob/master/first%20settings.PNG "Logo Title Text 2")
 
 Alright, we don't actually want feedback so lets deselect **A1** from **Hardware Input 1**.  
 
@@ -78,7 +81,7 @@ Lets get this VMB integrated with OBS so we can stream already. Open OBS and go 
 
 Here's a picture below on how it should look after. 
 
-OBS Picture
+![alt text](https://github.com/confusedbread/VoiceMeterSetup/blob/master/Obs%20Audio.PNG "Logo Title Text z")
 
 
 
