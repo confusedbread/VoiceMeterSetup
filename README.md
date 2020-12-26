@@ -27,15 +27,15 @@ This is setup we are going for here. To explain a little bit VMB uses 5 channels
 **Note**: for some strange reasons it's not labeled VMB but B1 IS **Output VAIO** and B2 IS **Output VAIO AUX**. Hopefully the drawing below clears things up.
 
 ```
-						voicemeter
-					--------------------------------
-main (desktop)----->| (input VAIO)			      A1|----> HeadPhones
-					|							  A2|----> Speakers
-					|							  A3|
-aux (discord)------>| (input AUX)					|
-					|				B1(output VAIO)	|---> OBS(Desktop Audio)
-					|				B2(output AUX)	|---> OBS(Mic/Auxiliary Audio)
-					_________________________________ 	↪ Discord Mic Input *alsoB2*
+                                    voicemeter
+                     --------------------------------
+main (desktop)----->| (input VAIO)			          A1|----> HeadPhones
+					          |							                A2|----> Speakers
+					          |							                A3|
+aux (discord)------>| (input AUX)					          |
+					          |				B1(output VAIO)	        |---> OBS(Desktop Audio)
+						        |				B2(output AUX)	        |---> OBS(Mic/Auxiliary Audio)
+						        _________________________________ 	↪ Discord Mic Input *alsoB2*
 ```
 ##### Setup Desktop Audio Input
 Let's first reroute you system audio to VMB. Go to windows, look up **Sound Settings**, and open it. Now under Output make sure to select **VoiceMeter input (VB-AduioMeeter VAIO)** make sure it is not **AUX VAIO**. (I know these can be swapped. It's just for my setup main input is Desktop Audio and AUX will be discord). Here's a picture so you don't get lost.
